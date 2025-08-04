@@ -46,6 +46,8 @@ function renderLoginForm() {
   form.style.display = "block";
   userName.textContent = "";
   userDetail.textContent = "";
+  idInput.value = ``;
+  passwordInput.value = ``;
 }
 
 // 로그인 버튼을 클릭하는 경우 post 요청 보낸 후 get 요청
